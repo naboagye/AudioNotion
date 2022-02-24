@@ -6,7 +6,7 @@ url = f"https://api.notion.com/v1/blocks/{page_id}/children?page_size=100"
 
 headers = {
   'Notion-Version': '2021-05-13',
-  'Authorization': 'Bearer secret_vuOFavaPvgbS8iHRJa6vqtgosrugUVfpdiWsp8NtqkO'
+  'Authorization': f'Bearer {token}'
 }
 
 response = requests.get(url, headers=headers)
