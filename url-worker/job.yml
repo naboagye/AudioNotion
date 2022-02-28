@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: url-worker
+spec:
+  parallelism: 2
+  template:
+    metadata:
+      name: url-worker
+    spec:
+      containers:
+        - name: url-worker-container
+          image: enter-image-here
+      restartPolicy: OnFailure

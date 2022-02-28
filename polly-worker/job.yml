@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: polly-worker
+spec:
+  parallelism: 2
+  template:
+    metadata:
+      name: polly-worker
+    spec:
+      containers:
+        - name: polly-worker-container
+          image: enter-image-here
+      restartPolicy: OnFailure

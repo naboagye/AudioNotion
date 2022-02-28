@@ -1,0 +1,10 @@
+certifi==2021.10.8
+charset-normalizer==2.0.12
+grpcio==1.44.0
+idna==3.3
+kubemq==2.2.4
+protobuf==3.19.4
+PyJWT==2.3.0
+requests==2.27.1
+six==1.16.0
+urllib3==1.26.8
