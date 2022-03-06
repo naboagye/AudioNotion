@@ -10,5 +10,5 @@ spec:
     spec:
       containers:
         - name: url-worker-container
-          image: enter-image-here
+          image: naboagye1/audio-notion-url-worker:latest
       restartPolicy: OnFailure

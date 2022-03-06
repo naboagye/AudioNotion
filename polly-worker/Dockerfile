@@ -1,6 +1,6 @@
 FROM python
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r requirements.txt
-COPY ./getText.py /getText.py
+COPY ./pollyUpload.py /pollyUpload.py
 
-CMD  python getText.py
+CMD  python pollyUpload.py
